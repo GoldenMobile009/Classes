@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditProfileViewController">
+            <connections>
+                <outlet property="descView" destination="jvy-MC-0Lv" id="B42-66-3Eu"/>
+                <outlet property="txtView" destination="jvy-MC-0Lv" id="2it-Aw-jxK"/>
+                <outlet property="view" destination="idH-5c-uqO" id="1yH-ua-Sxj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="idH-5c-uqO">
+            <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About You" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qaJ-5a-7WJ">
+                    <rect key="frame" x="10" y="349" width="300" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView autoresizesSubviews="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="JXH-c3-3YT">
+                    <rect key="frame" x="10" y="20" width="195" height="195"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="voN-4B-Xf1" appends="YES" id="rox-4O-aWN"/>
+                        <outletCollection property="gestureRecognizers" destination="WTC-6m-wAk" appends="YES" id="MJ9-pg-xLd"/>
+                    </connections>
+                </imageView>
+                <imageView autoresizesSubviews="NO" tag="11" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="QZq-Ks-EwX">
+                    <rect key="frame" x="225" y="20" width="85" height="85"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="-64" maxX="0.0" maxY="64"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="EOB-ay-Y6v" appends="YES" id="8VU-Va-LhD"/>
+                        <outletCollection property="gestureRecognizers" destination="8Kz-5G-hvl" appends="YES" id="dX7-0e-eKm"/>
+                    </connections>
+                </imageView>
+                <imageView autoresizesSubviews="NO" tag="12" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="9yh-eO-XRq">
+                    <rect key="frame" x="225" y="130" width="85" height="85"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="iX6-Tw-yRk" appends="YES" id="SDF-YZ-fsF"/>
+                        <outletCollection property="gestureRecognizers" destination="UQi-sn-bQs" appends="YES" id="5Zq-dv-75a"/>
+                    </connections>
+                </imageView>
+                <imageView autoresizesSubviews="NO" tag="13" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="E7e-Kl-kHm">
+                    <rect key="frame" x="10" y="240" width="85" height="85"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Ess-Xy-uBp" appends="YES" id="xK4-1f-K1h"/>
+                        <outletCollection property="gestureRecognizers" destination="HYh-K7-tY1" appends="YES" id="Qsc-rh-fUR"/>
+                    </connections>
+                </imageView>
+                <imageView autoresizesSubviews="NO" tag="14" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="eXu-gj-vDi">
+                    <rect key="frame" x="118" y="240" width="85" height="85"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Kwd-7w-CDg" appends="YES" id="aa1-5U-NVO"/>
+                        <outletCollection property="gestureRecognizers" destination="egQ-iD-poh" appends="YES" id="lVK-xe-r7G"/>
+                    </connections>
+                </imageView>
+                <imageView autoresizesSubviews="NO" tag="15" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1GY-Hh-n3D">
+                    <rect key="frame" x="225" y="240" width="85" height="85"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="HE1-1X-NNf" appends="YES" id="WL8-8C-K2q"/>
+                        <outletCollection property="gestureRecognizers" destination="bvr-r3-QNX" appends="YES" id="8Zl-wa-Xwp"/>
+                    </connections>
+                </imageView>
+                <button opaque="NO" tag="110" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SYX-0p-Ph8">
+                    <rect key="frame" x="180" y="190" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="+" backgroundImage="add_image.png">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="addDeletePics:" destination="-1" eventType="touchUpInside" id="1cr-9v-mxw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kSs-5X-cxw">
+                    <rect key="frame" x="287" y="82" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="+" backgroundImage="add_image.png">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="addDeletePics:" destination="-1" eventType="touchUpInside" id="eNm-83-JuW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="112" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="l9v-uM-NlX">
+                    <rect key="frame" x="287" y="191" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="+" backgroundImage="add_image.png">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="addDeletePics:" destination="-1" eventType="touchUpInside" id="XDJ-yF-T6M"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="115" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XIK-dx-oY0">
+                    <rect key="frame" x="286" y="299" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="+" backgroundImage="add_image.png">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="addDeletePics:" destination="-1" eventType="touchUpInside" id="Z8X-8v-s4x"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="114" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zOC-zQ-QNx">
+                    <rect key="frame" x="180" y="302" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="+" backgroundImage="add_image.png">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="addDeletePics:" destination="-1" eventType="touchUpInside" id="D3S-no-WpA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="113" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zaw-yy-Mhi">
+                    <rect key="frame" x="72" y="302" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="+" backgroundImage="add_image.png">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="addDeletePics:" destination="-1" eventType="touchUpInside" id="wca-D4-asQ"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="jvy-MC-0Lv">
+                    <rect key="frame" x="11" y="384" width="299" height="62"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="0Xz-AV-KVE"/>
+                    </connections>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+        <pongPressGestureRecognizer delaysTouchesEnded="NO" allowableMovement="10" minimumPressDuration="0.5" id="voN-4B-Xf1">
+            <connections>
+                <action selector="longPress:" destination="-1" id="gVX-x6-QIA"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <panGestureRecognizer delaysTouchesEnded="NO" minimumNumberOfTouches="1" maximumNumberOfTouches="1" id="WTC-6m-wAk">
+            <connections>
+                <action selector="panGest:" destination="-1" id="u93-gD-l8d"/>
+                <outlet property="delegate" destination="-1" id="odc-nS-Mab"/>
+            </connections>
+        </panGestureRecognizer>
+        <panGestureRecognizer delaysTouchesEnded="NO" minimumNumberOfTouches="1" maximumNumberOfTouches="1" id="EOB-ay-Y6v">
+            <connections>
+                <action selector="panGest:" destination="-1" id="E81-hh-Wuh"/>
+                <outlet property="delegate" destination="-1" id="Zto-Ps-2bc"/>
+            </connections>
+        </panGestureRecognizer>
+        <panGestureRecognizer delaysTouchesEnded="NO" minimumNumberOfTouches="1" maximumNumberOfTouches="1" id="iX6-Tw-yRk">
+            <connections>
+                <action selector="panGest:" destination="-1" id="FAm-1b-Ggg"/>
+                <outlet property="delegate" destination="-1" id="9Jr-FT-EiO"/>
+            </connections>
+        </panGestureRecognizer>
+        <pongPressGestureRecognizer delaysTouchesEnded="NO" allowableMovement="10" minimumPressDuration="0.5" id="8Kz-5G-hvl">
+            <connections>
+                <action selector="longPress:" destination="-1" id="B2X-NA-DDA"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <panGestureRecognizer delaysTouchesEnded="NO" minimumNumberOfTouches="1" maximumNumberOfTouches="1" id="HE1-1X-NNf">
+            <connections>
+                <action selector="panGest:" destination="-1" id="qDC-jz-Zvu"/>
+                <outlet property="delegate" destination="-1" id="04K-HC-6oJ"/>
+            </connections>
+        </panGestureRecognizer>
+        <pongPressGestureRecognizer delaysTouchesEnded="NO" allowableMovement="10" minimumPressDuration="0.5" id="UQi-sn-bQs">
+            <connections>
+                <action selector="longPress:" destination="-1" id="l4T-Yz-sme"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <pongPressGestureRecognizer delaysTouchesEnded="NO" allowableMovement="10" minimumPressDuration="0.5" id="bvr-r3-QNX">
+            <connections>
+                <action selector="longPress:" destination="-1" id="m6p-KZ-XGh"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <pongPressGestureRecognizer delaysTouchesEnded="NO" allowableMovement="10" minimumPressDuration="0.5" id="Kwd-7w-CDg">
+            <connections>
+                <action selector="longPress:" destination="-1" id="mLq-jC-yBj"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <pongPressGestureRecognizer delaysTouchesEnded="NO" allowableMovement="10" minimumPressDuration="0.5" id="HYh-K7-tY1">
+            <connections>
+                <action selector="longPress:" destination="-1" id="Gyr-yp-mi9"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <panGestureRecognizer delaysTouchesEnded="NO" minimumNumberOfTouches="1" maximumNumberOfTouches="1" id="egQ-iD-poh">
+            <connections>
+                <action selector="panGest:" destination="-1" id="oBV-Im-g1B"/>
+                <outlet property="delegate" destination="-1" id="frP-OW-WK9"/>
+            </connections>
+        </panGestureRecognizer>
+        <panGestureRecognizer delaysTouchesEnded="NO" minimumNumberOfTouches="1" maximumNumberOfTouches="1" id="Ess-Xy-uBp">
+            <connections>
+                <action selector="panGest:" destination="-1" id="pzL-vf-os8"/>
+                <outlet property="delegate" destination="-1" id="cSR-JB-Rop"/>
+            </connections>
+        </panGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="add_image.png" width="20" height="20"/>
+    </resources>
+</document>
